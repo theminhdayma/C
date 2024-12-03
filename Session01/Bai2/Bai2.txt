@@ -1,0 +1,26 @@
+
+Loại cấu trúc dữ liệu   |                      Đặc điểm chính                                                     | Ứng dụng phổ biến
+----------------------- | --------------------------------------------------------- | -----------------------------------------------------------------------
+Mảng (Array)            | - Lưu trữ các phần tử liên tiếp trong bộ nhớ.             | - Lưu trữ danh sách tĩnh như danh sách điểm, bảng số liệu.
+                        | - Truy cập phần tử nhanh qua chỉ số (O(1)).               | - Làm nền tảng cho các cấu trúc phức tạp hơn.
+                        | - Kích thước cố định.                                     |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------                       
+Danh sách liên kết      | - Gồm các nút được liên kết với nhau qua con trỏ.         | - Quản lý bộ nhớ động.
+(LinkedList)            | - Kích thước linh hoạt.                                   | - Tạo hàng đợi, ngăn xếp.
+                        | - Truy cập tuần tự chậm hơn mảng.                         |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------  
+Ngăn xếp (Stack)        | - Nguyên tắc LIFO (Last In, First Out).                   | - Quản lý lời gọi hàm đệ quy.
+                        | - Thêm/xóa phần tử chỉ tại đỉnh (top).                    | - Undo/Redo trong ứng dụng.
+                                                                                    | - Xử lý toán tử trong biểu thức.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------  
+Hàng đợi (Queue)        | - Nguyên tắc FIFO (First In, First Out).                  | - Lập lịch CPU.
+                        | - Thêm ở cuối, xóa ở đầu.                                 | - Xử lý hàng đợi in.
+                                                                                    | - Quản lý tác vụ chờ trong hệ thống.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------  
+Cây (Tree)              | - Dữ liệu có cấu trúc phân cấp (cha-con).                 | - Tìm kiếm nhị phân (BST).
+                        | - Mỗi nút có thể có nhiều nhánh con.                      | - Cấu trúc thư mục.
+                                                                                    | - Biểu diễn cây quyết định.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------  
+Đồ thị (Graph)          | - Gồm tập hợp đỉnh (vertex) và cạnh (edge).               | - Mạng xã hội (quan hệ bạn bè).
+                        | - Biểu diễn quan hệ giữa các đối tượng.                   | - Tìm đường đi ngắn nhất.
+                                                                                    | - Biểu diễn sơ đồ luồng công việc.

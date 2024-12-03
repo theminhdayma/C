@@ -1,0 +1,6 @@
+HÌNH DẠNG:
+
+1. Oval (Hình elip) : Dùng để bắt đầu hoặc kết thúc một quá trình
+2. Hình chữ nhật : Thể hiện một quá trình xử lý 
+3. Hình thoi : Kiểm tra điều kiện (TRue/False)
+4. Mũi tên : Biểu thị quá trình từ bước này sang bước kia
