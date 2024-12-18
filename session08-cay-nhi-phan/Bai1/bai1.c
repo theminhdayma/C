@@ -30,7 +30,7 @@ Node* insert(Node* root, int key) {
     return root;
 }
 
-// Duyet cay theo thu tu (In-order traversal)
+// Duyet cay theo thu tu (Preorder traversal)
 void preorderTraversal(Node* root) {
     if (root != NULL) {
         printf("%d \t", root->key);
