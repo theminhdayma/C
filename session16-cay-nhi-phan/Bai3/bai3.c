@@ -14,21 +14,6 @@ struct Node* createNode(int key) {
     return newNode;
 }
 
-// Them mot nut vao cay
-Node* insert(Node* root, int key) {
-    if (root == NULL) {
-        return createNode(key);
-    }
-
-    if (key < root->key) {
-        root->left = insert(root->left, key);
-    } else if (key > root->key) {
-        root->right = insert(root->right, key);
-    }
-
-    return root;
-}
-
 int countLeaves(Node* root) {
     if (root == NULL) {
         return 0;
